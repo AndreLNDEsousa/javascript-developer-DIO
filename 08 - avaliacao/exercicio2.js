@@ -15,6 +15,7 @@
 //             Maior número par: 10
 //             Menor número impar: 1
 
+
 const { gets, print } = require('./funcoes-auxiliares-ex2');
 const n = gets();
 let maiorNumeroPar = null;
@@ -24,17 +25,14 @@ for (let i = 0; i < n; i++) {
     const numero = gets();
 
     if (numero % 2 === 0) {
-        if (maiorNumeroPar === null) {
-            maiorNumeroPar = numero;
-        }else if (numero > maiorNumeroPar) {
+        if (maiorNumeroPar === null || numero > maiorNumeroPar) {
             maiorNumeroPar = numero;
         }
+        
     } else {
-        if (menorNumeroImpar === 0) {
+        if (menorNumeroImpar === null || numero < menorNumeroImpar) {
             menorNumeroImpar  =  numero;
-        } else if (numero < menorNumeroImpar) {
-            menorNumeroImpar = numero;
-        }
+        } 
     }
 
 }
