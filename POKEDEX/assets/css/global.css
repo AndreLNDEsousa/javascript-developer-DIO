@@ -12,20 +12,20 @@
     padding: 0px;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-
-}
+    }
 
 body {
     background-color: #090909;
     }
 
 
-h1 {
+h2 {
     font-family: Pokemon;   
     color: #FFF049;
     text-shadow: 5px 5px 5px  blue;
-    font-size: 2em;
-    margin: 0.67em 0;
+    font-size: 6em;
+    margin: .5em .0;
+    padding: 1px 10px 1px 1px;
     text-align: center;
 
 }
@@ -34,7 +34,7 @@ h1 {
 #logo {
    background-size: cover;
     max-width:  99%;
-    max-height: auto;
+    max-height: 35%;
     
     
 }
