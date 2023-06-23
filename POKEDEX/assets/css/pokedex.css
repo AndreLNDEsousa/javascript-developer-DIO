@@ -157,6 +157,17 @@
       
 }
 
+#logo {
+   background-size: cover;
+    max-width:  99%;
+    max-height: 25%; 
+}
+#fundoHeader{
+   background-image: url(../imagens/fundo\ para\ o\ logo.jpg); 
+   border-radius: 1rem; 
+ }
+
+
 
 @media screen and (min-width: 380px) {
    .pokemons {

@@ -22,22 +22,16 @@ body {
 h2 {
     font-family: Pokemon;   
     color: #FFF049;
-    text-shadow: 5px 5px 5px  blue;
-    font-size: 6em;
-    margin: .5em .0;
-    padding: 1px 10px 1px 1px;
-    text-align: center;
+    text-shadow: -3px 0 #0272EA, 0 3px #0272EA, 3px 0 #0272EA, 0 -3px #0272EA;
+    font-size: 5rem;
+    margin: 0.1em 134px 15px;
+    padding: 32px 10px;
+    text-align: left;
 
 }
 
 
-#logo {
-   background-size: cover;
-    max-width:  99%;
-    max-height: 35%;
-    
-    
-}
+
 
 .content {
     padding: 1rem;
@@ -45,6 +39,12 @@ h2 {
     width: 100vw;
     background-color: #fff;
     border-radius: 1px;
+}
+
+ p {
+    color: white;
+   text-align: center;
+   padding: 0px 0px;
 }
 
 
