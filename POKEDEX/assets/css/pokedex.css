@@ -147,7 +147,14 @@
    border: none;
    border-radius: 1rem;
    cursor: pointer;
-
+   
+  
+}
+#loadMoreButton:hover{
+   color: #e41c1c;
+   background-color: #f4d528;
+   
+      
 }
 
 

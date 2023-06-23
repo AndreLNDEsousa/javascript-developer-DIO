@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
 
+/* Fonte baixada para o H1 */
+@font-face {
+    font-family:Pokemon ;
+    src: url(../font/Pokemon\ Solid.ttf);
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -9,12 +16,27 @@
 }
 
 body {
-    background-color: #f6f8fc;
-}
+    background-color: #090909;
+    }
+
 
 h1 {
-    color: red;
+    font-family: Pokemon;   
+    color: #FFF049;
+    text-shadow: 5px 5px 5px  blue;
+    font-size: 2em;
+    margin: 0.67em 0;
+    text-align: center;
 
+}
+
+
+#logo {
+   background-size: cover;
+    max-width:  99%;
+    max-height: auto;
+    
+    
 }
 
 .content {
@@ -22,6 +44,7 @@ h1 {
     height: 100vh;
     width: 100vw;
     background-color: #fff;
+    border-radius: 1px;
 }
 
 
