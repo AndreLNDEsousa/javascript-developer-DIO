@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header .photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.header .title {
+    font-family: Neue Machina;
+
+}

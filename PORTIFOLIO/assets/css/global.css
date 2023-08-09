@@ -1,0 +1,25 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+  @font-face {
+    font-family: 'Neue Machina';
+    src: url(../fonts/Neue-Machina-Regular.otf);
+  }
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.main {
+    margin: .5rem;
+    padding: 1rem;
+}
