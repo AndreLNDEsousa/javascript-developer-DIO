@@ -1,4 +1,4 @@
-# javascript-developer-m1
+# javascript-developer
  DIO 2023
 # Dicas/Links Úteis
  
