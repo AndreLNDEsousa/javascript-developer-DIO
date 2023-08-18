@@ -22,4 +22,6 @@ body {
 .main {
     margin: .5rem;
     padding: 1rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
 }
