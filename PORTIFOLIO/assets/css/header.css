@@ -1,13 +1,12 @@
 .header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     position: relative;
 
 }
 
-.header::after{
+.header::after {
     content: '';
     display: inline-block;
     position: absolute;
@@ -22,6 +21,8 @@
     background-image: url('../icons/header.svg');
 
 }
+
+
 
 .header .photo {
     width: 200px;

@@ -1,35 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
-  @font-face {
-    font-family: 'Neue Machina';
-    src: url(../fonts/Neue-Machina-Regular.otf);
-  }
-
+@font-face {
+  font-family: 'Neue Machina';
+  src: url(../fonts/Neue-Machina-Regular.otf);
+}
 
 
-*{
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 
 }
 
 body {
-    background-color: #000000;
-    color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .main {
-    margin: .5rem;
-    padding: 1rem;
-    border: 1px solid #fff;
-    border-radius: 1rem;
+  margin: .5rem;
+  padding: 1rem;
+  border: 1px solid #fff;
+  border-radius: 1rem;
 }
+
+/*gradiente top, substituir pelo gradiente via CSS.*/
+.main::before {
+  content: "";
+  background-image: url('../img/background-top.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+  width: 140vw;
+  height: 100vh;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.main::after {
+  content: "";
+  background-image: url('../img/background-bottom.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+  width: 100vw;
+  height: 140vh;
+  display: inline-block;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+/* body {
+  background-image: linear-gradient(45deg, #8C35EC 15%, #BB44F0 15%, #E554F3 15%, #F664E4 15%, #F974CC 15%, #FB85B9 15%, #FD97AE 15%, #FEA9AA 15%, #FFC9BB 15%, #000);
+  width: 100vw;
+  height: 100vh;
+  top: 2799.71533203125px;
+  left: -457px;
+  border-radius: 593px;
+
+
+} */
 
 @media screen and (min-width: 768px) {
   .main {
-    max-width: 1024px ;
-    margin: 1rem auto
+    max-width: 1024px;
+    margin: 1rem auto;
   }
 
-  }
+}
