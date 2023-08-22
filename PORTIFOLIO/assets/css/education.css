@@ -1,0 +1,31 @@
+.education {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.education  li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin: 1rem;
+    /* padding-right: 1rem; UTILIZEI O GAP PARA O ESPAÇAMENTO */ 
+    gap: 10px;
+}
+
+.education  li::before {
+    content: '';
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    margin-right: .5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../icons/education.svg);
+}
